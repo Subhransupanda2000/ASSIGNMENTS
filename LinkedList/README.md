@@ -1,6 +1,5 @@
 <pre>Linkedlist-addfirst operation
 Linkedlist-addLast operation
 Linkedlist-removefirst operation
-Linkedlist-removelastt operation
-Linkedlist-addfirst operation
+Linkedlist-removelast operation
 Linkedlist-list operation</pre>
