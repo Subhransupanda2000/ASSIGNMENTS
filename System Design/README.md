@@ -1,1 +1,2 @@
-* Singletone
+* Singletone DesignPattern
+* Factory DesignPattern
