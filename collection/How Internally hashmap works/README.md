@@ -5,3 +5,4 @@
 *  buckets are usually use efficient data structure to resolve this problem like tree.
 *  When you retrieve a value by a key (using get(key)), the HashMap uses the hash code to find the bucket where the key might be found.
 *  then uses the equals() method to search for the exact key within the bucket.
+*  Time complexity of HashMap is big o of 1.
