@@ -16,7 +16,7 @@
 # git push
 * transmit local to github repository
 # git cherry picking
-*This can be useful when you want to pick specific changes from one branch and apply them to another branch without merging the entire branch.
+* This can be useful when you want to pick specific changes from one branch and apply them to another branch without merging the entire branch.
 # git revort
 * git revert command is used to create a new commit that undoes the changes made by a previous commit. It's a safe way to reverse the effects of a commit without 
   rewriting Git history
