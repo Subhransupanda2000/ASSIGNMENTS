@@ -5,3 +5,7 @@
 * Hashmap vs hashtable
 * Example WeakHashMap, IdenitityHashMap, EnumMap. 
 * Example Concurrent HashMap example. 
+* Sort and Employee List of object by name using comparator. 
+* Design LRU Cache. 
+* Design LFU cache. 
+* Example on TreeMap. 
