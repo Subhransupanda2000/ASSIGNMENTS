@@ -1,4 +1,4 @@
-#Why enum is used in java
+# Why enum is used in java
 * enums in Java are used to define a fixed set of named constants. They provide a way to create a collection of related values, making the code more readable, maintainable, and error-resistant. Enums enhance code clarity by replacing magic numbers or strings with self-explanatory, named constants. They improve type safety, preventing the assignment of invalid values, and can be utilized in switch statements for efficient control flow. Enums also support iteration over their values and can include instance variables and methods, allowing developers to associate data and behavior with each constant. This combination of features makes enums a valuable tool for defining and working with a limited set of related values in Java programs.
 # Constructor in enum
 * Enums are a data type in programming languages used to define a collection of named constants.
