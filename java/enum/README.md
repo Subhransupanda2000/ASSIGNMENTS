@@ -40,3 +40,12 @@ Enum values are often assigned sequential integers starting from 0 (although thi
 * Enhanced Expressiveness: Parameterized enums make code more expressive by encapsulating data and behavior within the enum itself. This improves code readability and maintainability.
 
 * Enumerating Values: You can still iterate through the enum constants using values() and use them in switch statements or other control structures.
+# Default enum in java
+* default enums provided by the Java Standard Library offer a structured and standardized way to represent specific sets of values within various domains and functionalities. These enums are accessible through different packages and serve diverse purposes. Here's a summary of the default enums in Java:
+Date and Time Enums: The java.time package provides enums like DayOfWeek and Month for representing days of the week and months of the year. These are crucial for modern date and time operations.
+File System Enums: In the java.nio.file package, the FileVisitResult enum is used to determine the result of file and directory traversal operations, aiding file manipulation and management.
+HTTP Enums: In web development and the Spring Framework, enums like HttpStatus and HttpMethod (from org.springframework.http) are used to represent HTTP status codes and request methods, respectively.
+Swing UI Enums: The JOptionPane enum (part of the Swing library) simplifies the creation of dialog boxes with various types, such as informational, warning, question, and error messages, enhancing user interaction in graphical applications.
+Annotation Processing Enums: The ElementType enum (from java.lang.annotation) is crucial for Java's annotation processing, specifying where annotations can be applied within code elements like classes, methods, and fields.
+Thread State Enum: The Thread.State enum (from java.lang) represents the possible states of a thread in Java, aiding in thread management and synchronization.
+Legacy Date and Time Enums: In older versions of Java, the java.util package offered DayOfWeek and Month enums with similar functionality to their java.time counterparts.
