@@ -23,3 +23,18 @@ Enum values are often assigned sequential integers starting from 0 (although thi
 
 * Enforcing Behavior: Abstract methods in enums are useful for ensuring that each enum constant adheres to a specific contract or interface. It provides a way to 
  define a consistent set of methods that each constant must implement.
+# Parameterized enum
+* Parameterized enums can be useful for a variety of purposes. 
+*Data-Driven Enums: Parameterized enums are used when you need to associate specific data or parameters with each enum constant. This data can be of any type, such as strings, numbers, or custom objects.
+
+* Constructor with Parameters: To create parameterized enums, you define a constructor within the enum class that accepts the desired parameters. Each enum constant then provides values for these parameters when it's declared.
+
+* Private Fields: The enum constants can have private fields to store the parameters. These fields are initialized in the constructor and can be accessed through getter methods.
+
+* Methods and Behavior: Parameterized enums often include methods to access and manipulate the associated data. These methods can provide behavior or operations related to the enum constants.
+
+* Real-World Modeling: Parameterized enums are especially useful when modeling real-world entities that have attributes or characteristics unique to each constant. Examples include representing fruits with color and taste or countries with population and GDP.
+
+* Enhanced Expressiveness: Parameterized enums make code more expressive by encapsulating data and behavior within the enum itself. This improves code readability and maintainability.
+
+* Enumerating Values: You can still iterate through the enum constants using values() and use them in switch statements or other control structures.
