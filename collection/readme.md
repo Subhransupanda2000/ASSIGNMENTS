@@ -8,4 +8,5 @@
 * Sort and Employee List of object by name using comparator. 
 * Design LRU Cache. 
 * Design LFU cache. 
-* Example on TreeMap. 
+* Example on TreeMap.
+* Hashmap
