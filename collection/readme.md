@@ -10,3 +10,4 @@
 * Design LFU cache. 
 * Example on TreeMap.
 * Hashmap
+* HashTable
