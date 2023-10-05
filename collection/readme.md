@@ -11,3 +11,4 @@
 * Example on TreeMap.
 * Hashmap
 * HashTable
+* Hashmap
